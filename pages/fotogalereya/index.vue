@@ -22,7 +22,13 @@
 
 import CoTitle from "~/components/ui/CoTitle.vue";
 </script>
-
+<script lang="ts">
+export default {
+  head: {
+    title: "ФОТОГАЛЕРЕЯ | Cooperative"
+  }
+}
+</script>
 <style scoped lang="scss">
 .gallery {
   .title {

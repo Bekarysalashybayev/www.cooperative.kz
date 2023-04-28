@@ -32,7 +32,13 @@
 
 import CoTitle from "~/components/ui/CoTitle.vue";
 </script>
-
+<script lang="ts">
+export default {
+  head: {
+    title: "КОНТАКТЫ | Cooperative"
+  }
+}
+</script>
 <style scoped lang="scss">
 .contacts {
   color: #0C3C60;

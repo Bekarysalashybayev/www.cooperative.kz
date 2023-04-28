@@ -30,7 +30,6 @@
     </div>
   </div>
 </template>
-
 <script lang="ts" setup>
 import CoCard from "~/components/home/CoCard.vue";
 import {IHomeItem} from "~/types/link.interface";
@@ -38,7 +37,6 @@ import CoLegalDocuments from "~/components/home/CoLegalDocuments.vue";
 import CoCertification from "~/components/home/CoCertification.vue";
 import CoEducation from "~/components/home/CoEducation.vue";
 import CoPartners from "~/components/home/CoPartners.vue";
-
 const items: IHomeItem[] = [
   {
     title: 'Что такое кооперативы?',
@@ -72,6 +70,13 @@ const items: IHomeItem[] = [
   }
 ]
 
+</script>
+<script lang="ts">
+export default {
+  head: {
+    title: "СРО ОЮЛ НАК | Cooperative"
+  }
+}
 </script>
 <style scoped lang="scss">
 .home {

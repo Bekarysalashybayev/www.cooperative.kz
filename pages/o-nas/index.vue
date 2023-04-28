@@ -273,7 +273,13 @@
 import CoPartnerNetwork from "~/components/home/CoPartnerNetwork.vue";
 import CoTitle from "~/components/ui/CoTitle.vue";
 </script>
-
+<script lang="ts">
+export default {
+  head: {
+    title: "ОБ АССОЦИАЦИИ | Cooperative"
+  }
+}
+</script>
 <style scoped lang="scss">
 .about {
   .link {
