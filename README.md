@@ -1,5 +1,7 @@
 # www.cooperative.kz
 
+## Node js 18
+
 ## Build Setup
 
 ```bash
