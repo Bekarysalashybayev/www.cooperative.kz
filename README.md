@@ -1,4 +1,4 @@
-# www.cooperativ.kz
+# www.cooperative.kz
 
 ## Build Setup
 
