@@ -12,10 +12,10 @@
         <div class="text" v-html="props.text">
         </div>
         <div class="link">
-          <a href="#" style="color: #0C3C60">Пройти сертификацию</a>
+          <a href="https://app.oqylyq.kz/" target="_blank" style="color: #147285">Пройти сертификацию</a>
         </div>
           <div class="link2">
-            <a href="#" style="color: red">РЕЕСТР сертифицированных председателей кооперативов</a>
+            <a href="#" style="color: #147285">РЕЕСТР сертифицированных председателей кооперативов</a>
           </div>
       </div>
       </div>
@@ -51,35 +51,39 @@ const props = defineProps<{
     width: 60%;
 
     .title {
-      color: #333333;
-      font-size: 28px;
+      color: #147285;
+      font-size: 17px;
       font-weight: bold;
       margin-bottom: 1rem;
+      letter-spacing: 0.03em;
     }
 
     .text {
-      font-size: 14px;
-      color: #0c3c60;
+      font-size: 13px;
+      color: #147285;
+      line-height: 1.5em;
     }
 
     .link {
       display: block;
       margin-top: 2rem;
       margin-bottom: 1rem;
-      color: #000000;
-      font-size: 15px;
+      color: #147285;
+      font-size: 14px;
       font-style: italic;
       text-decoration: underline;
+      line-height: 1.5em;
 
       &:hover{
         opacity: .9;
       }
     }
     .link2 {
-      color: red;
-      font-size: 15px;
+      color: #147285;
+      font-size: 14px;
       font-weight: bold;
       text-decoration: underline;
+      line-height: 1.5em;
     }
   }
 }

@@ -19,6 +19,7 @@
           <div class="instr-txt">
             Инструкция по прохождению онлайн-курса
             <br>
+            <br>
             "Кооперативное предпринимательство"
           </div>
           <div class="video-wrap">
@@ -70,13 +71,13 @@
               Типовая программа курса
             </div>
             <div class="content-goal">
-              <div class="content-modal-text-1" style="color: red">
+              <div class="content-modal-text-1">
                 Теоретический модуль:
               </div>
               <div class="content-modal-text" >
                 Введение в кооперативное предпринимательство и шеринг экономику.
               </div>
-              <div class="content-modal-text" >
+              <div class="content-modal-text-fisrt" >
                 Перспективы развития кооперативного предпринимательства:
                 <li>
                   для развития благосостояния общества Республики Казахстан;
@@ -195,14 +196,14 @@
               </div>
             </div>
           </div>
-          <div class="images">
-            <div class="image">
+          <div class="images2">
+            <div class="image2">
               <img :src="require(`@/assets/img/obuchenie/img2.webp`)">
             </div>
           </div>
           <div class="content-modal">
             <div class="content-goal">
-              <div class="content-modal-teor-text-1">
+              <div class="content-modal-teor-text-1-first">
                 Практический модуль
               </div>
               <div class="content-modal-teor-text" >
@@ -328,6 +329,16 @@
                 «Национальной ассоциации кооперативов и других форм экономических сообществ РК» должно быть не менее 15% от<br>
                 числа присутствующих в зале.
               </div>
+              <div class="content-modal-teor-text-1">
+                «Экзамен»
+              </div>
+              <div class="content-modal-teor-text" >
+                После окончания практического модуля и сдачи экзамена у Сертифицированного в "Национальной Ассоциации<br>
+                Кооперативов и других форм экономических сообществ" Кооперативного бизнес-акселератора выпускник курса получает<br>
+                Свидетельство об окончании курсов для предъявления в Сертификационный Центр для сдачи экзамена в виде 3-х<br>
+                ситуационных задач для получения Сертификата по указанной в целях курса специализаций.<br>
+                числа присутствующих в зале.
+              </div>
             </div>
           </div>
           <div class="images">
@@ -363,9 +374,9 @@ export default {
 .course-button{
   margin: 0 auto;
   width: max-content;
-  color: #0B2F5B;
+  color: #147285;
   button{
-    color: #39729B;
+    color: #147285;
     font-weight: bold;
     text-decoration: underline;
   }
@@ -380,27 +391,35 @@ export default {
     height:380px;
   }
 }
+.content-modal{
+  padding: 35px 0 30px 0;
+}
 .instr-txt{
   margin: 1rem auto 1rem auto;
   width: max-content;
   font-weight: bold;
-  font-size: 14px;
-  color: #0B2F5B;
+  font-size: 13px;
+  color: #147285;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .content-goal{
   width: 680px;
   margin: 0 auto;
   p{
-    font-size: 11px;
+    font-size: 10px;
     margin: 1rem 0 1rem 0;
+    color: #147285;
+    letter-spacing: 0.03em;
   }
 }
 .goal-header{
-  color: #0B2F5B;
-  font-size: 12px;
+  color: #147285;
+  font-size: 11px;
   font-weight: bold;
   margin-bottom: 0.2rem;
+  letter-spacing: 0.03em;
+  font-style: italic;
 }
 .images {
   margin: 0 auto;
@@ -410,57 +429,93 @@ export default {
     margin: 2rem 0 2rem 0;
   }
 }
+.images2{
+  margin: 0 auto;
+  img {
+    margin: 2rem 0 2rem 0;
+    width: 100%;
+  }
+}
+.image2{
+  width: 100%;
+}
 .content-modal{
   border: 1px solid #39729B;
   background-color: #d1e0eb;
 }
 .content-modal-title{
   width: max-content;
-  margin: 2rem auto 1.5rem auto;
-  color: #0B2F5B;
+  margin: 0 auto;
+  color: #147285;
   font-size: 12px;
   font-weight: bold;
+  letter-spacing: 0.03em;
+  padding: 0 0 20px 0;
 }
 .content-modal-text{
-  color: #0B2F5B;
+  color: #147285;
   font-size: 10.5px;
   font-weight: bold;
   margin-top: 1rem;
+  letter-spacing: 0.03em;
   li{
     font-weight: normal;
     list-style: none;
   }
 }
-.content-modal-teor-text{
-  color: #0B2F5B;
-  font-size: 10.7px;
-  font-weight: normal;
-  margin-top: 1rem;
-}
-.content-modal-text-1{
-  color: #0B2F5B;
+.content-modal-text-fisrt{
+  color: #147285;
   font-size: 10.5px;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.03em;
   li{
     font-weight: normal;
   }
 }
+.content-modal-teor-text{
+  color: #147285;
+  font-size: 10.7px;
+  font-weight: normal;
+  margin-top: 1rem;
+  letter-spacing: 0.03em;
+}
+.content-modal-text-1{
+  color: #147285;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+  font-style: italic;
+  li{
+    font-weight: normal;
+  }
+}
+.content-modal-teor-text-1-first{
+  color: #147285;
+  font-size: 11.5px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  font-style: italic;
+}
 .content-modal-teor-text-1{
-  color: #0B2F5B;
+  color: #147285;
   font-size: 11.5px;
   font-weight: bold;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
+  letter-spacing: 0.03em;
 }
 .content-modal-text-last{
-  color: #0B2F5B;
+  color: #147285;
   font-size: 10.5px;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  letter-spacing: 0.04em;
   li{
     font-weight: normal;
+    list-style: none;
   }
 }
 </style>

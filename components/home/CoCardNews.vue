@@ -52,14 +52,14 @@ const props = defineProps<{
     width: 60%;
 
     .title {
-      color: #333333;
-      font-size: 28px;
+      color: #147285;
+      font-size: 24px;
       font-weight: bold;
       margin-bottom: 2.5rem;
     }
 
     .text {
-      font-size: 14px;
+      font-size: 13px;
       color: #0c3c60;
     }
 
@@ -67,8 +67,9 @@ const props = defineProps<{
       display: block;
       margin-top: 2rem;
       color: #000000;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: bold;
+      line-height: 2em;
 
       &:hover{
         opacity: .9;

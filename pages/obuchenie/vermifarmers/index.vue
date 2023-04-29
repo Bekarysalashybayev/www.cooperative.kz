@@ -39,9 +39,6 @@
             </button>
           </div>
           <div class="content-modal">
-            <div class="content-modal-title">
-
-            </div>
             <div class="content-goal">
               <div class="content-modal-text-1">
                 «Органикалық қалдықтарды өңдеу арқылы вермикомпост өндіру»
@@ -100,7 +97,6 @@
   </div>
 </template>
 <script lang="ts" setup>
-import CoTitle from "~/components/ui/CoTitle.vue";
 </script>
 <script lang="ts">
 export default {
@@ -118,7 +114,7 @@ export default {
   font-weight: bold;
   button{
     text-decoration: underline;
-    color: #6ea4ca;
+    color: #147285;
   }
   .line{
     height: 4px;
@@ -136,9 +132,9 @@ export default {
 .course-button{
   margin: 0 auto;
   width: max-content;
-  color: #0B2F5B;
+  color: #147285;
   button{
-    color: #39729B;
+    color: #147285;
     font-weight: bold;
     text-decoration: underline;
   }
@@ -158,16 +154,17 @@ export default {
   width: max-content;
   font-weight: bold;
   font-size: 14px;
-  color: #0B2F5B;
+  color: #147285;
   text-align: center;
   button{
     text-decoration: underline;
-    color: #0B2F5B;
+    color: #147285;
   }
 }
 .content-goal{
-  width: 680px;
+  padding: 15px;
   margin: 0 auto;
+  width: 680px;
   p{
     font-size: 11px;
     margin: 1rem 0 1rem 0;
@@ -191,10 +188,10 @@ export default {
   border: 1px solid #39729B;
   background-color: #d1e0eb;
   margin-bottom: 2rem;
+  padding: 15px;
 }
 .content-modal-title{
   width: max-content;
-  margin: 2rem auto 1.5rem auto;
   color: #0B2F5B;
   font-size: 12px;
   font-weight: bold;
@@ -206,6 +203,7 @@ export default {
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.03em;
   li{
     font-weight: normal;
     font-size: 12px;
@@ -215,21 +213,22 @@ export default {
   margin-top: 0.7rem;
 }
 .content-modal-text-1{
-  color: #0B2F5B;
+  color: #147285;
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 1rem;
   text-align: center;
+  line-height: 1.5em;
 }
 .content-modal-text-last{
   color: #0B2F5B;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  letter-spacing: 0.03em;
   li{
     list-style: none;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
   }
 }
 .unbolded{
