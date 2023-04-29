@@ -7,7 +7,9 @@
           <img src="../assets/img/home/main-1.webp" alt="">
         </div>
       </div>
-      <nuxt/>
+      <transition name="home" duration="3000">
+        <nuxt/>
+      </transition>
     </div>
     <co-footer/>
   </div>
@@ -28,4 +30,6 @@ import CoFooter from "~/components/ui/footer/CoFooter.vue";
     flex-grow: 1;
   }
 }
+.home-enter-active, .home-leave-active { transition: opacity 3s; }
+.home-enter, .home-leave-active { opacity: 0; }
 </style>
