@@ -16,4 +16,5 @@ export interface IHomeItem{
   image: string,
   link: string,
   color?: string
+  line?: boolean
 }

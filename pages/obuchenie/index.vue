@@ -8,7 +8,7 @@
         <div class="main-content">
           <div class="korp">
             <div class="image">
-              <img :src="require(`@/assets/img/home/corp.webp`)">
+              <img src="@/assets/img/home/corp.webp">
             </div>
             <div class="button-pos">
               <button>
@@ -18,7 +18,7 @@
           </div>
             <div class="uprav">
               <div class="image">
-                <img :src="require(`@/assets/img/home/uprav.webp`)">
+                <img src="@/assets/img/home/uprav.webp">
               </div>
               <div class="button-pos">
                 <button>
@@ -28,7 +28,7 @@
             </div>
             <div class="vermi">
               <div class="image">
-                <img :src="require(`@/assets/img/home/verm.webp`)">
+                <img src="@/assets/img/home/verm.webp">
               </div>
               <div class="button-pos-3">
                 <button>

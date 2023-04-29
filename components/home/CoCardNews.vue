@@ -16,6 +16,9 @@
       </div>
     </div>
     <co-hr :color="props.hrColor"/>
+    <div v-if="props.line">
+      <div class="line-yellow"></div>
+    </div>
   </div>
 </template>
 
@@ -28,6 +31,7 @@ const props = defineProps<{
   image: string,
   link: string,
   hrColor?: string,
+  line?: boolean | undefined,
 }>()
 </script>
 
@@ -71,5 +75,13 @@ const props = defineProps<{
       }
     }
   }
+}
+
+.line-yellow{
+  height: 4px;
+  width: 7%;
+  background-color: yellow;
+  margin: 15px 10% 0 auto;
+
 }
 </style>

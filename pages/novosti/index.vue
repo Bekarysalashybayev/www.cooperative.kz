@@ -7,14 +7,10 @@
         </div>
         <div class="cards">
           <template v-for="(item, i) in items">
-            <co-card
+            <co-card-news
               class="mb-50"
               :key="i"
-              :title="item.title"
-              :text="item.text"
-              :image="item.image"
-              :hr-color="item.color"
-              :link="item.link"/>
+              v-bind="item"/>
           </template>
         </div>
       </div>
@@ -22,7 +18,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import CoCard from "~/components/home/CoCardNews.vue";
+import CoCardNews from "~/components/home/CoCardNews.vue";
 import {IHomeItem} from "~/types/link.interface";
 import CoTitle from "~/components/ui/CoTitle.vue";
 const items: IHomeItem[] = [
@@ -38,6 +34,8 @@ const items: IHomeItem[] = [
           жизни.`,
     image: 'item1.webp',
     link: '/',
+    line: true,
+
   },
   {
     title: 'Чек-лист соответствия кооперативов требованиям СРО ОЮЛ НАК для противодействия трансформации их в финансовые пирамиды',
