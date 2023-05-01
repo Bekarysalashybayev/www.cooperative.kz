@@ -120,13 +120,13 @@ button {
 @font-face {
   font-family: 'Raleway';
   src: local('Raleway Light'), local('Raleway-Light'),
-  url('../fonts/raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  url('@/assets/fonts/raleway/Raleway-VariableFont_wght.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 html {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.2 !important;
   word-spacing: 1px !important;
   -ms-text-size-adjust: 100%;

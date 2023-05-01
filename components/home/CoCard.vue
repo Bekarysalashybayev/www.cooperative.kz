@@ -43,12 +43,14 @@ const props = defineProps<{
     .title {
       color: #333333;
       font-size: 18px;
+      line-height: 1.2;
       font-weight: bold;
       margin-bottom: 1rem;
     }
 
     .text {
       font-size: 14px;
+      line-height: 1.5;
       color: #0c3c60;
     }
 
