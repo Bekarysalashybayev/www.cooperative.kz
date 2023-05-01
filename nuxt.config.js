@@ -27,6 +27,7 @@ export default {
 
   buildModules: [
     '@nuxt/typescript-build',
+    'vue-ssr-carousel/nuxt'
   ],
 
   modules: [

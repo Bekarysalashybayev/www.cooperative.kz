@@ -18,13 +18,13 @@
           <co-legal-documents/>
         </div>
         <div class="documents mb-50">
-          <co-certification />
+          <co-certification/>
         </div>
         <div class="documents mb-50">
-          <co-education />
+          <co-education/>
         </div>
         <div class="documents mb-50">
-          <co-partners />
+          <co-partners/>
         </div>
       </div>
     </div>
@@ -37,6 +37,7 @@ import CoLegalDocuments from "~/components/home/CoLegalDocuments.vue";
 import CoCertification from "~/components/home/CoCertification.vue";
 import CoEducation from "~/components/home/CoEducation.vue";
 import CoPartners from "~/components/home/CoPartners.vue";
+
 const items: IHomeItem[] = [
   {
     title: 'Что такое кооперативы?',
