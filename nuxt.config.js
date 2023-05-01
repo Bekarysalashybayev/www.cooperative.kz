@@ -33,6 +33,17 @@ export default {
   modules: [
     'bootstrap-vue/nuxt',
   ],
+  bootstrapVue: {
+    icons: false,
+    componentPlugins: [],
+    directivePlugins: [],
+    components: [],
+    directives: [],
+  },
 
-  build: {},
+  build: {
+    babel: {
+      compact: true,
+    },
+  },
 }
