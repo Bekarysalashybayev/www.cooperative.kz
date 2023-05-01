@@ -10,8 +10,8 @@
             <div class="image">
               <img src="@/assets/img/home/corp.webp">
             </div>
-            <div class="button-pos">
-              <button>
+            <div class="button-pos1">
+              <button onclick="window.location.href='/obuchenie/cooperative-enterpreneurship';">
                 Онлайн-курс
               </button>
             </div>
@@ -20,9 +20,9 @@
               <div class="image">
                 <img src="@/assets/img/home/uprav.webp">
               </div>
-              <div class="button-pos">
-                <button>
-                  Онлайн-курс
+              <div class="button-pos2">
+                <button onclick="window.open('https://gkh.kz//','_blank')" type="button">
+                  Запись на курс
                 </button>
               </div>
             </div>
@@ -31,7 +31,7 @@
                 <img src="@/assets/img/home/verm.webp">
               </div>
               <div class="button-pos-3">
-                <button>
+                <button onclick="window.location.href='/obuchenie/vermifarmers';">
                   Онлайн-курс
                 </button>
               </div>
@@ -93,14 +93,30 @@ export default {
     position: relative;
     width: 100%;
   }
-  .button-pos {
+  .button-pos1 {
     position: absolute;
     top: 70%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     color: #0B2F5B;
-    font-size: 16px;
+    font-size: 12px;
+    padding: 12px 24px;
+    border: 1px solid #0B2F5B;
+    cursor: pointer;
+    border-radius: 5px;
+    button{
+      color: #0B2F5B;
+    }
+  }
+  .button-pos2 {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #0B2F5B;
+    font-size: 12px;
     padding: 12px 24px;
     border: 1px solid #0B2F5B;
     cursor: pointer;
@@ -111,12 +127,12 @@ export default {
   }
   .button-pos-3 {
     position: absolute;
-    top: 70%;
-    left: 20%;
+    top: 40%;
+    left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     padding: 12px 24px;
     border: 1px solid #3f7652;
     cursor: pointer;

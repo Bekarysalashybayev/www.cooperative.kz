@@ -18,7 +18,8 @@
         <div class="main-content">
           <div class="video-wrap">
             <div class="video-container">
-              <iframe :src="require(`@/assets/img/obuchenie/load.mp4`)"></iframe>
+              <video controls>  <source src="/media/vermikom1.mp4" type="video/mp4">
+                Your browser does not support HTML video.</video>
             </div>
           </div>
           <div class="instr-txt">
@@ -28,7 +29,8 @@
           </div>
           <div class="video-wrap">
             <div class="video-container">
-              <iframe :src="require(`@/assets/img/obuchenie/load.mp4`)"></iframe>
+              <video controls>  <source src="/media/vermikom2.mp4" type="video/mp4">
+                Your browser does not support HTML video.</video>
             </div>
           </div>
           <div class="instr-txt">
@@ -144,9 +146,12 @@ export default {
   width: max-content;
 }
 .video-container{
-  iframe{
-    width:680px;
-    height:380px;
+  max-width: 680px;
+  max-height:380px;
+  video{
+    width: 680px;
+    height: 380px;
+    background-color: black;
   }
 }
 .instr-txt{

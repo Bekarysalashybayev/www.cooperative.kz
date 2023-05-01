@@ -13,7 +13,8 @@
         <div class="main-content">
           <div class="video-wrap">
             <div class="video-container">
-              <iframe :src="require(`@/assets/img/obuchenie/load.mp4`)"></iframe>
+              <video controls>  <source src="/media/predprinimatelstvo3.mp4" type="video/mp4">
+                Your browser does not support HTML video.</video>
             </div>
           </div>
           <div class="instr-txt">
@@ -24,12 +25,14 @@
           </div>
           <div class="video-wrap">
             <div class="video-container">
-              <iframe :src="require(`@/assets/img/obuchenie/load.mp4`)"></iframe>
+              <video controls>  <source src="/media/predprinimatelstvo1.mp4" type="video/mp4">
+                Your browser does not support HTML video.</video>
             </div>
           </div>
           <div class="video-wrap">
             <div class="video-container">
-              <iframe :src="require(`@/assets/img/obuchenie/load.mp4`)"></iframe>
+              <video controls>  <source src="/media/predprinimatelstvo2.mp4" type="video/mp4">
+                Your browser does not support HTML video.</video>
             </div>
           </div>
           <div class="instr-txt">
@@ -366,7 +369,10 @@ export default {
   margin: 0 auto;
   width: max-content;
 }
-
+video{
+  width: 100%;
+  height: auto;
+}
 .main-content {
   margin: 0 auto;
   max-width: 990px;
@@ -386,9 +392,12 @@ export default {
   width: max-content;
 }
 .video-container{
-  iframe{
-    width:680px;
-    height:380px;
+    max-width: 680px;
+    max-height:380px;
+  video{
+    width: 680px;
+    height: 380px;
+    background-color: black;
   }
 }
 .content-modal{
