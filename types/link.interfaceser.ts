@@ -1,20 +1,19 @@
-interface IChildLink{
+interface IChildLinkSer{
   name: string,
   link: string
 }
 
-export interface ILink{
+export interface ILinkSer{
   name: string,
   link: string
 
-  child: IChildLink[] | null
+  child: IChildLinkSer[] | null
 }
 
-export interface IHomeItem{
+export interface IHomeItemSer{
   title: string,
   text: string,
   image: string,
   link: string,
   color?: string
-  line?: boolean
 }
