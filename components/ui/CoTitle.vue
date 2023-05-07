@@ -22,7 +22,7 @@ div {
   font-size: 30px;
   line-height: 1.2em;
   text-align: center;
-  color: #147285;
+  color: #6ea4ca;
 
   .large{
     font-size: 50px;

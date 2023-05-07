@@ -11,6 +11,7 @@
           :link="link.link"
           :underline="link.underline"
           :bold="link.bold"
+          :target="link.target"
         />
       </div>
     </div>

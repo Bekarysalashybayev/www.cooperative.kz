@@ -14,16 +14,16 @@
           Ассоциация аккредитована в Национальной Палате Предпринимателей Республики Казахстан «АТАМАКЕН» в качестве
           Республиканской ассоциации.
         </div>
-        <nuxt-link to="#" class="link mb-4 text">
+        <nuxt-link to="/o-nas/management" class="link mb-4 text">
           <strong>РУКОВОДСТВО</strong> (подробно)
         </nuxt-link>
-        <nuxt-link to="#" class="link mb-4 text">
+        <nuxt-link to="/o-nas/documentation" class="link mb-4 text">
           <strong>НОРМАТИВНО-ПРАВОВЫЕ ДОКУМЕНТЫ</strong> (подробно)
         </nuxt-link>
-        <nuxt-link to="#" class="link mb-4 text">
+        <nuxt-link to="/o-nas/who-is-interested" class="link mb-4 text">
           <strong>КОМУ ИНТЕРЕСНО</strong> (подробно)
         </nuxt-link>
-        <nuxt-link to="#" class="link mb-4 text">
+        <nuxt-link to="/o-nas/international-cooperation" class="link mb-4 text">
           <strong>МЕЖДУНАРОДНОЕ СОТРУДНИЧЕСТВО</strong> (подробно)
         </nuxt-link>
         <div class="mb-4">
@@ -94,7 +94,7 @@
         <div class="mb-5">
           <strong>Блог</strong>
           Президента ОЮЛ "Национальная Ассоциация Кооперативов и других форм экономических сообществ Республики
-          Казахстан" kazybekshaikh.kz
+          Казахстан" <a href="https://kazybekshaikh.kz/ru/%D0%B1%D0%BB%D0%BE%D0%B3.html">kazybekshaikh.kz</a>
         </div>
         <div class="mb-50">
           <co-partner-network/>
@@ -282,6 +282,12 @@ export default {
 </script>
 <style scoped lang="scss">
 .about {
+
+  a{
+    text-decoration: underline!important;
+    color: blue;
+  }
+
   .link {
     display: block;
     cursor: pointer;

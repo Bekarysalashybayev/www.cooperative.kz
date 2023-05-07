@@ -8,6 +8,7 @@
           :title="link.title"
           :type="link.type"
           :link="link.link"
+          :target="link.target"
           :underline="link.underline"
           :bold="link.bold"
         />
@@ -20,7 +21,7 @@
 import CoHr from "~/components/ui/CoHr.vue";
 import CoTitle from "~/components/ui/CoTitle.vue";
 import CoLink from "~/components/ui/CoLink.vue";
-import {documentsCertLinkList, documentsEducationLinkList} from "~/components/home/core/DocumentsLinkList";
+import {documentsEducationLinkList} from "~/components/home/core/DocumentsLinkList";
 
 </script>
 
