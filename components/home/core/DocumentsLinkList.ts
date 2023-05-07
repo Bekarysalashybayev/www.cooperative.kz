@@ -51,9 +51,10 @@ export const documentsSecondLinkList: ILink[] = [
   {
     title: 'Правила и стандарты СРО ОЮЛ "Национальная ассоциация кооперативов и других форм экономических сообществ РК"',
     type: 'link',
-    link: 'https://www.kooperativ.kz/media/Правила и стандарты НАК.pdf',
+    link: '/media/Правила и стандарты НАК.pdf',
     underline: true,
     bold: true,
+    target: '_blank'
   },
   {
     title: 'Чек-лист по финансовым пирамидам',
