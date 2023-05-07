@@ -42,19 +42,19 @@ export default {
         child: [
           {
             name: "ДОКУМЕНТЫ",
-            link: "/",
+            link: "/o-nas/documentation",
           },
           {
             name: "КОМУ ИНТЕРЕСНО",
-            link: "/",
+            link: "/o-nas/who-is-interested",
           },
           {
             name: "РУКОВОДСТВО",
-            link: "/",
+            link: "/o-nas/management",
           },
           {
             name: "Международное сотрудничество",
-            link: "/",
+            link: "/o-nas/international-cooperation",
           }
         ]
       },

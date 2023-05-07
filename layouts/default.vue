@@ -15,9 +15,19 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script>
 import CoHeader from "~/components/ui/header/CoHeader.vue";
 import CoFooter from "~/components/ui/footer/CoFooter.vue";
+
+export default {
+  name: 'default',
+  components: {CoHeader, CoFooter},
+  watch: {
+    $route() {
+      window.scrollTo(0, 0)
+    },
+  },
+}
 
 </script>
 <style scoped lang="scss">
@@ -30,6 +40,12 @@ import CoFooter from "~/components/ui/footer/CoFooter.vue";
     flex-grow: 1;
   }
 }
-.home-enter-active, .home-leave-active { transition: opacity 3s; }
-.home-enter, .home-leave-active { opacity: 0; }
+
+.home-enter-active, .home-leave-active {
+  transition: opacity 3s;
+}
+
+.home-enter, .home-leave-active {
+  opacity: 0;
+}
 </style>

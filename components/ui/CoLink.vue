@@ -1,9 +1,23 @@
 <template>
   <div>
-    <nuxt-link :to="props.link" :class="classes" v-if="props.type === 'link'">
+    <nuxt-link :to="props.link"
+               :class="classes"
+               v-if="props.type === 'link' && !props.target">
       {{ props.title }}
     </nuxt-link>
-    <div :class="classes" v-else>
+    <a :href="props.link"
+       :class="classes"
+       target="_blank"
+       v-if="props.type === 'link' && props.target">
+      {{ props.title }}
+    </a>
+    <a :href="props.link"
+       :class="classes"
+       download
+       v-if="props.type === 'word'">
+      {{ props.title }}
+    </a>
+    <div :class="classes" v-if="props.type === 'none'">
       {{ props.title }}
     </div>
   </div>
@@ -27,7 +41,8 @@ const props = defineProps<{
   type: 'pdf' | 'word' | 'link' | 'none',
   link: string,
   underline?: boolean | undefined,
-  bold?: boolean | undefined
+  bold?: boolean | undefined,
+  target?: string | undefined,
 }>()
 </script>
 

@@ -15,7 +15,7 @@
           <a href="https://app.oqylyq.kz/" target="_blank" style="color: #147285">Пройти сертификацию</a>
         </div>
           <div class="link2">
-            <a href="#" style="color: #147285">РЕЕСТР сертифицированных председателей кооперативов</a>
+            <a href="https://reestr.kooperativ.kz/#/reestr" target="_blank" style="color: #147285">РЕЕСТР сертифицированных председателей кооперативов</a>
           </div>
       </div>
       </div>
