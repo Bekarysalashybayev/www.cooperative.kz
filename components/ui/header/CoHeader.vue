@@ -59,18 +59,27 @@ export default {
         ]
       },
       {
-        name: "ОБ АССОЦИАЦИИ",
-        link: "/o-nas",
+        name: "СЕРТИФИКАЦИЯ",
+        link: "/sertifikaciya",
         child: null
       },
       {
-        name: "ОБ АССОЦИАЦИИ",
-        link: "/o-nas",
-        child: null
+        name: "ОБУЧЕНИЕ",
+        link: "/obuchenie",
+        child: [
+          {
+            name: "Корпоративное предпринимательство",
+            link: "/obuchenie/cooperative-enterpreneurship",
+          },
+          {
+            name: "Вермифермеры",
+            link: "/obuchenie/vermifarmers",
+          }
+        ]
       },
       {
-        name: "ОБ АССОЦИАЦИИ",
-        link: "/o-nas",
+        name: "НОВОСТИ",
+        link: "/novosti",
         child: null
       },
       {
