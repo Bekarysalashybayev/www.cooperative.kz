@@ -33,7 +33,7 @@
         </div>
       </div>
       <a href="/media/Рубцов_Аркадий_Александрович_приказ_о_назначении.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="/media/ЖКХ - Положение по комитету.pdf" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
       <div class="item">
         <img src="@/assets/img/management/Murat.webp" alt="picture">
         <div class="item-detail">
@@ -49,7 +49,7 @@
         </div>
       </div>
       <a href="/media/Каримсаков_Мурат_Ратович_Приказ_о_назначении_Председателя_Комитета.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="#" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
       <div class="item">
         <img src="@/assets/img/management/Alma.webp" alt="picture">
         <div class="item-detail">
@@ -65,7 +65,7 @@
         </div>
       </div>
       <a href="/media/Архабаева_Алма_Нураловна_Приказ_о_назначении_Председателя_МЛМ.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="/media/МЛМ_при_НАК_Положение_по_комитету.pdf" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
       <div class="item">
         <img src="@/assets/img/management/Bakhytzhan.webp" alt="picture">
         <div class="item-detail">
@@ -80,8 +80,8 @@
           </div>
         </div>
       </div>
-      <a href="/media/Асембеков0_Бакытжан_Мырзанович_Приказ_о_назначении_Председателя" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="/media/Асембеков0_Бакытжан_Мырзанович_Приказ_о_назначении_Председателя.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
+      <a href="/media/Вермифермеры_Положение_по_комитету_кооперации_при_НАК.pdf" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
       <div class="item">
         <img src="@/assets/img/management/Dosmukhamed.webp" alt="picture">
         <div class="item-detail">
@@ -97,7 +97,7 @@
         </div>
       </div>
       <a href="/media/Досмұхамет_Нұр_Ахмет_Приказ_о_назначении_Председателя_Комитета_Сельхоз.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="#" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
       <div class="item">
         <img src="@/assets/img/management/Aigul.webp" alt="picture">
         <div class="item-detail">
@@ -113,7 +113,7 @@
         </div>
       </div>
       <a href="/media/Акчалова_Айгуль_Сагимбековна_Приказ_о_назначении_Председателя_Комитета.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="/media/Кулмакшеры_при_НАК_Положение_по_комитету_кооперации.pdf" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
       <div class="item">
         <img src="@/assets/img/management/Dina.webp" alt="picture">
         <div class="item-detail">
@@ -129,7 +129,7 @@
         </div>
       </div>
       <a href="/media/Сыргабаева_Дина_Избасаровна_Приказ_о_назначении_Председателя_Комитета.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="/media/Развития_женской_кооперации_при_НАК_Положение_по_комитету.pdf" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
       <div class="item">
         <img src="@/assets/img/management/Timur.webp" alt="picture">
         <div class="item-detail">
@@ -145,7 +145,7 @@
         </div>
       </div>
       <a href="/media/Елеусизов_Тимур_Мэлсович_Приказ_о_назначении_Председателя_Комитета.pdf" class="doc mb-2" target="_blank">Приказ о назначении</a>
-      <a href="/media/" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
+      <a href="/media/Развития_карбоновых_ферм_при_НАК_Положение_по_комитету.pdf" class="doc mb-50" target="_blank">Положение о деятельности комитета</a>
     </div>
   </div>
 </template>
