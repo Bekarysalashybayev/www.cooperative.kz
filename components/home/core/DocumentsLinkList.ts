@@ -98,7 +98,7 @@ export const documentsSecondLinkList: ILink[] = [
   },
   {
     title: 'Договор публичной оферты ассоциированных членов ОСИ',
-    type: 'none',
+    type: 'link',
     link: '/media/Договор публичной оферты 15.pdf',
     underline: true,
     bold: true,
