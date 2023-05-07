@@ -218,25 +218,28 @@ export const documentsEducationLinkList: ILink[] = [
 export const documentsPartnerLinkList: ILink[] = [
   {
     title: 'Единый Национальный Реестр Кооперативных Паев',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://reestr.kooperativ.kz/#/',
     underline: true,
+    target: "_blank"
   },
   {
     title: 'Сертификационный центр ЖКХ',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
     underline: true,
+    target: "_blank"
   }, {
     title: 'Учебный центр ЖКХ-ИНФО',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
     underline: true,
+    target: "_blank"
   },
   {
     title: 'Учебный центр для вермифермеров KazAGO',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/obuchenie/vermifarmers',
     underline: true,
   },
 

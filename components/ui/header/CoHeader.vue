@@ -46,7 +46,7 @@ export default {
           },
           {
             name: "КОМУ ИНТЕРЕСНО",
-            link: "/",
+            link: "/o-nas/who-is-interested",
           },
           {
             name: "РУКОВОДСТВО",
@@ -54,7 +54,7 @@ export default {
           },
           {
             name: "Международное сотрудничество",
-            link: "/",
+            link: "/o-nas/international-cooperation",
           }
         ]
       },
