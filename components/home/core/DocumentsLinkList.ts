@@ -58,52 +58,59 @@ export const documentsSecondLinkList: ILink[] = [
   },
   {
     title: 'Чек-лист по финансовым пирамидам',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/media/Чек лист фин пирамид.pdf',
     underline: true,
     bold: true,
+    target: '_blank'
   },
   {
     title: 'Типовой устав Потребительского кооператива (ПК)',
-    type: 'none',
-    link: '#',
+    type: 'word',
+    link: 'Типовой устав Потребительского кооператива каз-рус.docx',
     underline: true,
     bold: true,
+    target: '_blank'
   },
   {
     title: 'Типовой устав Жилищно-строительных кооперативов (ЖСК)',
-    type: 'none',
-    link: '#',
+    type: 'word',
+    link: 'типовой устав ЖСК комитет (1).docx',
     underline: true,
     bold: true,
+    target: '_blank'
   },
   {
     title: 'Типовой устав Объединения Собственников Квартир (ОСИ)',
-    type: 'none',
-    link: '#',
+    type: 'word',
+    link: 'Типовой устав ОСИ в рамках СРО.docx',
     underline: true,
     bold: true,
+    target: '_blank'
   },
   {
     title: 'Договор публичной оферты для Комитета по развитию MLM индустрии',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/media/Договор физ лица MLM 2022.pdf',
     underline: true,
     bold: true,
+    target: '_blank'
   },
   {
     title: 'Договор публичной оферты ассоциированных членов ОСИ',
     type: 'none',
-    link: '#',
+    link: '/media/Договор публичной оферты 15.pdf',
     underline: true,
     bold: true,
+    target: '_blank'
   },
   {
     title: 'Договор публичной оферты ассоциированных членов Комитета по развитию кооперативов вермифермеров ',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/media/Договор Вермифермеры.pdf',
     underline: true,
     bold: true,
+    target: '_blank'
   },
 ]
 
