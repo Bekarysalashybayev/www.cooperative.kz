@@ -42,7 +42,7 @@ export default {
         child: [
           {
             name: "ДОКУМЕНТЫ",
-            link: "/",
+            link: "/o-nas/documentation",
           },
           {
             name: "КОМУ ИНТЕРЕСНО",
@@ -50,7 +50,7 @@ export default {
           },
           {
             name: "РУКОВОДСТВО",
-            link: "/",
+            link: "/o-nas/management",
           },
           {
             name: "Международное сотрудничество",

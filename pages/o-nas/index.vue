@@ -14,10 +14,10 @@
           Ассоциация аккредитована в Национальной Палате Предпринимателей Республики Казахстан «АТАМАКЕН» в качестве
           Республиканской ассоциации.
         </div>
-        <nuxt-link to="#" class="link mb-4 text">
+        <nuxt-link to="/o-nas/management" class="link mb-4 text">
           <strong>РУКОВОДСТВО</strong> (подробно)
         </nuxt-link>
-        <nuxt-link to="#" class="link mb-4 text">
+        <nuxt-link to="/o-nas/documentation" class="link mb-4 text">
           <strong>НОРМАТИВНО-ПРАВОВЫЕ ДОКУМЕНТЫ</strong> (подробно)
         </nuxt-link>
         <nuxt-link to="#" class="link mb-4 text">

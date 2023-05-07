@@ -4,6 +4,7 @@ interface ILink {
   link: string,
   underline?: boolean | undefined,
   bold?: boolean | undefined
+  target?: string | undefined
 }
 
 export const documentsFirsLinkList: ILink[] = [
@@ -19,9 +20,10 @@ export const documentsFirsLinkList: ILink[] = [
   },
   {
     title: 'Закон "О потребительских кооперативах";',
-    type: 'none',
-    link: '#',
-    underline: true
+    type: 'word',
+    link: 'Закон РК о потребительских кооперативах.docx',
+    underline: true,
+    target: '_blank'
   },
   {
     title: 'Закон "Сельскохозяйственных кооперативах";',
@@ -48,8 +50,8 @@ export const documentsFirsLinkList: ILink[] = [
 export const documentsSecondLinkList: ILink[] = [
   {
     title: 'Правила и стандарты СРО ОЮЛ "Национальная ассоциация кооперативов и других форм экономических сообществ РК"',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'media/Правила и стандарты НАК.pdf',
     underline: true,
     bold: true,
   },
@@ -107,57 +109,60 @@ export const documentsSecondLinkList: ILink[] = [
 export const documentsCertLinkList: ILink[] = [
   {
     title: 'Председатель кооператива',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/sertifikaciya',
     underline: true,
     bold: true,
   },
   {
     title: 'Бизнес-акселератор',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/sertifikaciya',
     underline: true,
     bold: true,
   },
   {
     title: 'Кооперативный агент',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/sertifikaciya',
     underline: true,
     bold: true,
   },
   {
     title: 'Сертифицированный поставщик',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/sertifikaciya',
     underline: true,
     bold: true,
   },
   {
     title: 'Менеджер по управлению жилыми и нежилыми зданиями',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
+    target: '_blank',
     underline: true,
     bold: true,
   },
   {
     title: 'Управляющий многоквартирным домом',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
+    target: '_blank',
     underline: true,
     bold: true,
   },
   {
     title: 'Хаус-мастер',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
+    target: '_blank',
     underline: true,
     bold: true,
   },
   {
     title: 'Вермифермеры',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/obuchenie/vermifarmers',
     underline: true,
     bold: true,
   },
@@ -165,36 +170,39 @@ export const documentsCertLinkList: ILink[] = [
 export const documentsEducationLinkList: ILink[] = [
   {
     title: 'Кооперативное предпринимательство',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/obuchenie',
     underline: true,
     bold: true,
   },
   {
     title: 'Менеджер по управлению жилыми и нежилыми зданиями',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
+    target: '_blank',
     underline: true,
     bold: true,
   },
   {
     title: 'Управляющий многоквартирным домом',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
+    target: '_blank',
     underline: true,
     bold: true,
   },
   {
     title: 'Хаус-мастер',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: 'https://gkh.kz/',
+    target: '_blank',
     underline: true,
     bold: true,
   },
   {
     title: 'Производство вермикомпоста путем переработки органических отходо',
-    type: 'none',
-    link: '#',
+    type: 'link',
+    link: '/obuchenie/vermifarmers',
     underline: true,
     bold: true,
   }
