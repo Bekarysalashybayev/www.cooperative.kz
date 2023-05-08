@@ -360,7 +360,7 @@ import CoTitle from "~/components/ui/CoTitle.vue";
 <script lang="ts">
 export default {
   head: {
-    title: "ОБУЧЕНИЕ | Cooperative"
+    title: "КООПЕРАТИВНОЕ ПРЕДПРИНИМАТЕЛЬСТВО | Cooperative"
   }
 }
 </script>
