@@ -33,7 +33,7 @@ const items: IHomeItem[] = [
           объединение сил, ресурсов и мозгов для достижения целей, безопасной, благополучной и наполненной смыслом
           жизни.`,
     image: 'item1.webp',
-    link: '/',
+    link: '/novosti/what-are-cooperatives',
     line: true
 
   },
@@ -60,7 +60,7 @@ const items: IHomeItem[] = [
            сообществ» Республики Казахстан был проведен Круглый стол «Потребительская
            кооперация – механизм повышения благосостояния населения».`,
     image: 'item2.webp',
-    link: '/',
+    link: '/novosti/round-table',
     line: true
   },
   {

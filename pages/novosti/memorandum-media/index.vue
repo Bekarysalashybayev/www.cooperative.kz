@@ -52,7 +52,7 @@
           </p>
         </div>
         <div class="link">
-          <a href="/media/3 Меморандум АФК.PDF"> Текст Меморандума читать</a>
+          <a href="/media/3 Меморандум АФК.PDF" target="_blank"> Текст Меморандума читать</a>
         </div>
         <div class="main-content">
 
