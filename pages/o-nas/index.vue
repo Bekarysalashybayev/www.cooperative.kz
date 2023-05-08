@@ -94,7 +94,7 @@
         <div class="mb-5">
           <strong>Блог</strong>
           Президента ОЮЛ "Национальная Ассоциация Кооперативов и других форм экономических сообществ Республики
-          Казахстан" <a href="https://kazybekshaikh.kz/ru/%D0%B1%D0%BB%D0%BE%D0%B3.html">kazybekshaikh.kz</a>
+          Казахстан" <a href="https://kazybekshaikh.kz/ru/%D0%B1%D0%BB%D0%BE%D0%B3.html" target="_blank">kazybekshaikh.kz</a>
         </div>
         <div class="mb-50">
           <co-partner-network/>

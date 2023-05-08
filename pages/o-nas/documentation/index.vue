@@ -794,7 +794,13 @@
 <script setup lang="ts">
 import CoLegalDocuments from "~/components/home/CoLegalDocuments.vue";
 </script>
-
+<script lang="ts">
+export default {
+  head: {
+    title: "ДОКУМЕНТЫ | Cooperative"
+  }
+}
+</script>
 <style scoped lang="scss">
 .documentation {
   font-size: 15px;

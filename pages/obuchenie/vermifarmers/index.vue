@@ -103,7 +103,7 @@
 <script lang="ts">
 export default {
   head: {
-    title: "ОБУЧЕНИЕ | Cooperative"
+    title: "Вермифермеры | Cooperative"
   }
 }
 </script>
