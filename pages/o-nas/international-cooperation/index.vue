@@ -115,7 +115,13 @@
 <script setup lang="ts">
 import CoTitle from "~/components/ui/CoTitle.vue";
 </script>
-
+<script lang="ts">
+export default {
+  head: {
+    title: "Международное сотрудничество | Cooperative"
+  }
+}
+</script>
 <style scoped lang="scss">
 .international-cooperation {
   font-size: 15px;

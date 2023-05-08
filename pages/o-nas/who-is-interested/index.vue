@@ -105,6 +105,13 @@
 <script setup lang="ts">
 import CoTitle from "~/components/ui/CoTitle.vue";
 </script>
+<script lang="ts">
+export default {
+  head: {
+    title: "КОМУ ИНТЕРЕСНО | Cooperative"
+  }
+}
+</script>
 
 <style scoped lang="scss">
 .who-is-interested {
