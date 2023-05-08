@@ -9,7 +9,7 @@
         <div>
           <div class="co-card mb-40">
             <div class="img-div">
-              <img src="/assets/img/home/dina.webp">
+              <img src="@/assets/img/home/dina.webp">
             </div>
             <div class="co-card-desc">
               <div class="text">
