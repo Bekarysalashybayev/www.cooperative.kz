@@ -10,7 +10,7 @@
         </div>
         <div class="text" v-html="props.text">
         </div>
-        <nuxt-link :to="props.link" class="link" target="_blank">
+        <nuxt-link :to="props.link" class="link">
           ПОДРОБНЕЕ
         </nuxt-link>
       </div>
