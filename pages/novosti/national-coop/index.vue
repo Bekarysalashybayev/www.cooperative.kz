@@ -15,15 +15,11 @@
         <div class="instr-txt">
           21 апреля 2021 года ОЮЛ "Национальная ассоциация кооперативов и других форм экономических сообществ РК" получила статус Саморегулируемой организации и вошла в Реестр СРО Министерства индустрии и инфраструктурного развития Республики Казахстан.
         </div>
-        <div class="course-button">
-          <button onclick="window.open('#','_blank')" type="button">
-            Подробнее
-          </button>
+        <div class="images">
+          <img src="@/assets/img/home/natcop1.jpg">
         </div>
-        <div class="course-button">
-          <button onclick="window.open('#','_blank')" type="button">
-            Подробнее
-          </button>
+        <div class="images">
+          <img src="@/assets/img/home/natcop2.jpg">
         </div>
       </div>
     </div>
@@ -117,10 +113,11 @@ export default {
 }
 .images {
   margin: 0 auto;
-  max-width: 680px;
+  max-width: 100%;
 
   img {
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0;
+    width: 100%;
   }
 }
 .content-modal{
